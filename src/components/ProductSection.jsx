@@ -9,20 +9,23 @@ export function ProductSection() {
 	));
 
 	return (
-		<div className="w-full h-full -py-20 "> {/* Changed py-20 to py-10 */}
-			<h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-green-800 font-sans mb-8">
+		<div className="w-full h-full pt-20 pb-32 bg-green-100 relative">
+			<h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-green-950 font-sans mb-8">
 				Our Premium Rice Varieties
 			</h2>
 			<Carousel items={cards} />
+			<div className="absolute bottom-0 left-0 right-0 h-32 bg-green-100" style={{
+				clipPath: 'ellipse(70% 100% at 50% 100%)'
+			}}></div>
 		</div>
 	);
 }
 
 const ProductContent = ({ title, description, imageSrc }) => {
 	return (
-		<div className="bg-white dark:bg-green-900 p-8 md:p-14 rounded-3xl mb-4">
-			<p className="text-green-800 dark:text-green-200 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
-				<span className="font-bold text-green-900 dark:text-green-100">
+		<div className="bg-green-100 p-8 md:p-14 rounded-3xl mb-4">
+			<p className="text-green-950 text-base md:text-2xl font-sans max-w-3xl mx-auto mb-8">
+				<span className="font-bold text-green-950">
 					{title}
 				</span>{" "}
 				{description}
