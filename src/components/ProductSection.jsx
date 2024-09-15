@@ -42,12 +42,12 @@ const data = [
 	{
 		category: "Premium Rice",
 		title: "Long Grain Rice",
-		src: "/images/long-grain.jpg",
+		src: "/images/long-grain.jpeg",
 		content: (
 			<ProductContent
 				title="Long Grain Rice"
 				description="Our long grain rice is perfect for a variety of dishes. Known for its fluffy texture and distinct grains that remain separate when cooked, it's ideal for pilafs, stir-fries, and as a side dish."
-				imageSrc="/images/long-grain.jpg"
+				imageSrc="/images/long-grain.jpeg"
 			/>
 		),
 	},
@@ -66,24 +66,24 @@ const data = [
 	{
 		category: "Premium Rice",
 		title: "Baskati Rice",
-		src: "/images/baskati-rice.jpg",
+		src: "/images/baskati-rice.jpeg",
 		content: (
 			<ProductContent
 				title="Baskati Rice"
 				description="Baskati rice is a fragrant, long-grain variety known for its distinctive aroma and delicate flavor. It's excellent for biryanis, pulaos, and other traditional Indian dishes."
-				imageSrc="/images/baskati-rice.jpg"
+				imageSrc="/images/baskati-rice.jpeg"
 			/>
 		),
 	},
 	{
 		category: "Premium Rice",
 		title: "Jeera Shat Rice",
-		src: "/images/jeera-shat-rice.jpg",
+		src: "/images/jeera.jpeg",
 		content: (
 			<ProductContent
 				title="Jeera Shat Rice"
 				description="Our Jeera Shat rice, also known as Cumin rice, is a specialty variety with small, fine grains resembling cumin seeds. It has a unique flavor profile and is perfect for making jeera rice and other aromatic dishes."
-				imageSrc="/images/jeera-shat-rice.jpg"
+				imageSrc="/images/jeera.jpeg"
 			/>
 		),
 	},
