@@ -12,7 +12,7 @@ export default function Home() {
 			<FeaturesSection />
 
 			<footer className="bg-green-950 py-4 text-center text-white">
-				<p>&copy; 2023 HMG Enterprise. All rights reserved.</p>
+				<p>&copy; 2024 HMG Enterprise. All rights reserved.</p>
 			</footer>
 		</div>
 	);

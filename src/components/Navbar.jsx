@@ -20,7 +20,7 @@ export function NavbarComponent() {
 							HMG Enterprise
 						</span>
 					</Link>
-					<div className="hidden md:flex space-x-4">
+					{/* <div className="hidden md:flex space-x-4">
 						<NavLink href="/" icon={<FaHome />}>
 							Home
 						</NavLink>
@@ -36,7 +36,7 @@ export function NavbarComponent() {
 					</div>
 					<div className="md:hidden">
 						<HamburgerMenu isOpen={isOpen} toggleMenu={toggleMenu} />
-					</div>
+					</div> */}
 				</div>
 			</div>
 			<AnimatePresence>
