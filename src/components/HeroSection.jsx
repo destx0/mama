@@ -28,8 +28,8 @@ export function HeroSection() {
 						Your Trusted Rice Supplier
 					</h2>
 					<p className="text-base sm:text-lg md:text-xl mb-8 text-center max-w-2xl">
-						Exclusive Miniket Rice, Baskati Rice, Long Grain and
-						Jeera Shat Rice available here.
+						Exclusive Long Grain Miniket Rice, Baskati Rice, Long Grain and
+						Jeera kati Short Grain Rice available here.
 					</p>
 					<a
 						href="tel:9635361584"

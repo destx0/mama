@@ -47,11 +47,11 @@ const ProductContent = ({ title, description, imageSrc }) => {
 const data = [
 	{
 		category: "Premium Rice",
-		title: "Long Grain Rice",
+		title: "Long Grain Miniket Rice", // Updated title
 		src: "/images/long-grain.jpeg",
 		content: (
 			<ProductContent
-				title="Long Grain Rice"
+				title="Long Grain Miniket Rice" // Updated title
 				description="Our long grain rice is perfect for a variety of dishes. Known for its fluffy texture and distinct grains that remain separate when cooked, it's ideal for pilafs, stir-fries, and as a side dish."
 				imageSrc="/images/long-grain.jpeg"
 			/>
