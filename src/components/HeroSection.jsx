@@ -24,7 +24,7 @@ export function HeroSection() {
 			<div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
 			<div className="relative z-20 h-full flex flex-col justify-center items-center text-white px-4">
 				<div className="text-center">
-					<TypewriterEffectSmooth words={words} />
+					<TypewriterEffectSmooth words={words} cursorClassName="bg-green-950" />
 				</div>
 				<h2 className="text-2xl font-semibold mt-4 mb-2 text-center">
 					Your Trusted Rice Supplier
@@ -34,7 +34,7 @@ export function HeroSection() {
 				</p>
 				<a
 					href="tel:9635361584"
-					className="mt-8 inline-flex h-12 items-center justify-center rounded-md bg-green-800 px-6 py-3 text-lg font-medium text-white shadow transition-colors hover:bg-green-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-700 disabled:pointer-events-none disabled:opacity-50"
+					className="mt-8 inline-flex h-12 items-center justify-center rounded-md bg-green-900 px-6 py-3 text-lg font-medium text-white shadow transition-colors hover:bg-green-950 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-700 disabled:pointer-events-none disabled:opacity-50"
 				>
 					<FaPhoneAlt className="mr-2" /> Call Now: 9635361584
 				</a>
