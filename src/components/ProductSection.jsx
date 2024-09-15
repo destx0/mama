@@ -9,7 +9,7 @@ export function ProductSection() {
 	));
 
 	return (
-		<div className="w-full h-full pt-20 pb-32 bg-green-100 relative">
+		<div className="w-full h-full pt-20 pb-32 bg-white relative">
 			<h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-green-950 font-sans mb-8">
 				Our Premium Rice Varieties
 			</h2>
