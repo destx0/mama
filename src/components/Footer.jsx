@@ -9,11 +9,11 @@ const Footer = () => {
 					<div className="mb-4 md:mb-0">
 						<h3 className="text-xl font-bold mb-2">Contact Info</h3>
 						<p>Phone: 9635361584</p>
-						<p>Email: howrah768707@gmail.com</p>
+						<p>Email: harimohanghosh07@gmail.com</p>
 					</div>
 					<div>
 						<h3 className="text-xl font-bold mb-2">Address</h3>
-						<p>Raghakshpur, Jashore, Habra (N) 24PGS,</p>
+						<p>Raghabpur, Jessure, Habra, North 24 PGS,</p>
 						<p>W.B. pin - 743233</p>
 					</div>
 				</div>

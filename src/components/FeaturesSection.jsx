@@ -14,7 +14,7 @@ export function FeaturesSection() {
 			<div
 				className="absolute bottom-0 left-0 right-0 h-32 bg-green-950"
 				style={{
-					clipPath: "ellipse(70% 100% at 50% 100%)",
+					clipPath: "ellipse(85% 100% at 50% 100%)",
 				}}
 			></div>
 		</div>

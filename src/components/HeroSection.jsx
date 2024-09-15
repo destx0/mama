@@ -42,7 +42,7 @@ export function HeroSection() {
 			<div
 				className="absolute bottom-0 left-0 right-0 h-16 sm:h-24 bg-white z-20"
 				style={{
-					clipPath: "ellipse(70% 100% at 50% 100%)",
+					clipPath: "ellipse(85% 100% at 50% 100%)",
 				}}
 			></div>
 		</div>

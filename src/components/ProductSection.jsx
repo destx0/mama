@@ -14,9 +14,12 @@ export function ProductSection() {
 				Our Premium Rice Varieties
 			</h2>
 			<Carousel items={cards} />
-			<div className="absolute bottom-0 left-0 right-0 h-32 bg-green-100" style={{
-				clipPath: 'ellipse(70% 100% at 50% 100%)'
-			}}></div>
+			<div
+				className="absolute bottom-0 left-0 right-0 h-32 bg-green-100"
+				style={{
+					clipPath: "ellipse(85% 100% at 50% 100%)",
+				}}
+			></div>
 		</div>
 	);
 }
@@ -80,12 +83,12 @@ const data = [
 	},
 	{
 		category: "Premium Rice",
-		title: "Jeera Shat Rice",
+		title: "Jeera Kati Short Grain Rice", // Updated title
 		src: "/images/jeera.jpeg",
 		content: (
 			<ProductContent
-				title="Jeera Shat Rice"
-				description="Our Jeera Shat rice, also known as Cumin rice, is a specialty variety with small, fine grains resembling cumin seeds. It has a unique flavor profile and is perfect for making jeera rice and other aromatic dishes."
+				title="Jeera Kati Short Grain Rice" // Updated title
+				description="Our Jeera Kati rice, also known as Cumin rice, is a specialty variety with small, fine grains resembling cumin seeds. It has a unique flavor profile and is perfect for making jeera rice and other aromatic dishes." // Updated description
 				imageSrc="/images/jeera.jpeg"
 			/>
 		),
