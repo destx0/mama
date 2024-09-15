@@ -1,11 +1,13 @@
 import { HeroSection } from "@/components/HeroSection";
 import { NavbarComponent } from "@/components/Navbar";
+import { ProductSection } from "@/components/ProductSection";
 
 export default function Home() {
 	return (
 		<div className="min-h-screen font-sans">
 			<NavbarComponent />
 			<HeroSection />
+			<ProductSection />
 
 			<main className="container mx-auto px-4 py-8">
 				{/* Add more content sections here */}
