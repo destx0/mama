@@ -5,11 +5,11 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 export function HeroSection() {
 	const words = [
-		{ text: "H.M.", className: "text-white" },
+		{ text: "H.M.", className: "text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400" },
 		{ text: "\u00A0" },
-		{ text: "Ghosh", className: "text-white" },
+		{ text: "Ghosh", className: "text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400" },
 		{ text: "\u00A0" },
-		{ text: "Enterprise", className: "text-green-300" },
+		{ text: "Enterprise", className: "text-transparent bg-clip-text bg-gradient-to-b from-green-100 to-green-600" },
 	];
 
 	return (
@@ -24,9 +24,9 @@ export function HeroSection() {
 			<div className="absolute inset-0 bg-black bg-opacity-60 z-10"></div>
 			<div className="relative z-20 h-full flex flex-col justify-center items-center text-white px-4">
 				<div className="text-center">
-					<TypewriterEffectSmooth words={words} cursorClassName="bg-green-950" />
+					<TypewriterEffectSmooth words={words} cursorClassName="bg-green-300" />
 				</div>
-				<h2 className="text-2xl font-semibold mt-4 mb-2 text-center">
+				<h2 className="text-2xl font-semibold mt-4 mb-2 text-center text-transparent bg-clip-text bg-gradient-to-b from-green-100 to-green-300">
 					Your Trusted Rice Supplier
 				</h2>
 				<p className="text-xl mb-8 text-center max-w-2xl">
@@ -34,7 +34,7 @@ export function HeroSection() {
 				</p>
 				<a
 					href="tel:9635361584"
-					className="mt-8 inline-flex h-12 items-center justify-center rounded-md bg-green-900 px-6 py-3 text-lg font-medium text-white shadow transition-colors hover:bg-green-950 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-700 disabled:pointer-events-none disabled:opacity-50"
+					className="mt-8 inline-flex h-12 items-center justify-center rounded-md bg-gradient-to-b from-green-600 to-green-800 px-6 py-3 text-lg font-medium text-white shadow transition-colors hover:from-green-700 hover:to-green-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-green-500 disabled:pointer-events-none disabled:opacity-50"
 				>
 					<FaPhoneAlt className="mr-2" /> Call Now: 9635361584
 				</a>
